@@ -10,7 +10,8 @@
     grid-template-columns: repeat(1,1fr); 
     width: 100%;
     gap: 25px;
-    margin-top: 10px;
+    padding: 10px;
+   
     
 }
 
@@ -81,7 +82,7 @@
     .collection {
         top: 70px;
         width: 245px;
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .shop {
@@ -111,13 +112,13 @@
         top: 200px;
         left: 70px;
         width: 900px;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .shop {
         top: 250px;
         left: 60px;
-        font-size: 35px;
+        font-size: 18px;
     }
 
     .cat-line {
@@ -127,7 +128,7 @@
         background-color: black;
         position: absolute;
         
-        left: 230px;
+        left: 150px;
     }
 
   

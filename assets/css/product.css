@@ -8,7 +8,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(1,1fr); 
-   margin:30px;
+   margin:10px;
+   
 }
 
 .grid-item{
@@ -17,9 +18,10 @@
 }
 
 .grid-item img {
-    width: 95%;
+    width: 100%;
     height: 95%;
     object-fit: cover; 
+  
 }
 
 .prod-h2 {
@@ -28,7 +30,7 @@
     display: flex;
     justify-content: center;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 1rem auto;
     font-size: 30px;
     line-height: 25px;
     padding-block: 1rem;
@@ -37,8 +39,8 @@
 
    .product {
     position: absolute;
-    top: 70px;
-    left: 30px;
+    top: 90px;
+    left: 80px;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -55,7 +57,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 100%;
     height: 95%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
@@ -81,9 +83,18 @@
 
     .product{
         top:50px;
-        left:45px;
-        font-size: 15px;
+      font-size: 15px;
         width: 110px;
+    }
+
+    .grid-item img{
+        width: 95%;
+     
+      
+    }
+
+    .overlay {
+        width:95%;
     }
 }
 
@@ -107,6 +118,19 @@
         left:55px;
         font-size: 16px;
         width: 130px;
+    
+        margin:2rem;
+       
+    }
+
+    .grid-item img{
+        width: 95%;
+     
+      
+    }
+
+    .overlay {
+        width:95%;
     }
 }
 
@@ -116,20 +140,32 @@
         display: grid;
         grid-template-columns: repeat(4,1fr); 
        
-    }    
+    }   
+    
+    .prod-h2 {
+        font-size: 30px;
+            line-height: 25px;
+            padding-block: 2rem;
+
+    }
     .product{
         top:195px;
         left:140px;
-        font-size: 40px;
+        font-size: 20px;
         width: 400px;
         line-height: 50px;
     }
 
     .grid-item img {
-        
+        width: 95%;
         height: 95%;
         object-fit: cover; 
     }
+
+    .overlay {
+        width:95%;
+    }
+
 
 }
 
