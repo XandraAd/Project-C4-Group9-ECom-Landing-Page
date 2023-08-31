@@ -5,7 +5,7 @@ body {
     
     .recent-news{
     height: 1150px;
-    border: 2px solid green;
+   
     }
     
     .recent-news h2 {
@@ -237,7 +237,7 @@ body {
         justify-content:center ;
       
     margin-bottom: 10px;
-    border: 2px solid red;
+    
     
     }
     
@@ -327,7 +327,7 @@ body {
               justify-content:center ;
             
           margin-bottom: 10px;
-          border: 2px solid red;
+          
           
           }
           
